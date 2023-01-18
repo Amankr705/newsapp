@@ -8,7 +8,7 @@ export class NewsItem extends Component {
       <div className='my-3'>
         <div className="card">
             <div style={{display: 'flex', justifyContent: 'flex-end', position: 'absolute', right: '0'}}>
-              <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger"style={{left: '90%', zindex: '1'}} >{source} </span>
+              <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger"style={{left: '90%', zIndex: '1'}} >{source} </span>
             </div>
             <img src={!imageUrl?'https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2022-12/585715b7-32b9-4fe2-b5b8-e00ef86f5eff.jpg':imageUrl} className="card-img-top" alt="..."/>
             <div className="card-body">
